@@ -7,8 +7,8 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class KeycloakAdminRoleService extends KeycloakSecurityService {
 
-    protected $basePath = "/auth/admin/realms/{realm}/clients/{clientIdCode}/roles";
-    protected $basePathRealm = "/auth/admin/realms/{realm}/roles-by-id";
+    protected $basePath = "/admin/realms/{realm}/clients/{clientIdCode}/roles";
+    protected $basePathRealm = "/admin/realms/{realm}/roles-by-id";
 
     const GET_ALL_URL = "";
     const GET_BY_ID_URL = "/{roleId}";
