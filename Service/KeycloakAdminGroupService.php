@@ -7,7 +7,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class KeycloakAdminGroupService extends KeycloakSecurityService 
 {
-    protected $basePath = "/auth/admin/realms/{realm}/groups";
+    protected $basePath = "/admin/realms/{realm}/groups";
     
     const GET_ALL_URL = "";
     const GET_URL = "/{id}";

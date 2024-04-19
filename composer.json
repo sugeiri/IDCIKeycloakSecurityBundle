@@ -14,6 +14,10 @@
         {
             "name": "Yansell Rivas",
             "email": "yrivas@syneteksolutions.com"
+        },
+        {
+            "name": "Angel Bencosme",
+            "email": "abencosme@syneteksolutions.com"
         }
     ],
     "require": {

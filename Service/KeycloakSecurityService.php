@@ -34,7 +34,7 @@ class KeycloakSecurityService {
         AUTH_TYPE_BEARER = "bearer"
     ;
 
-    protected $securityPath = "/auth/realms/{realm}";
+    protected $securityPath = "/realms/{realm}";
 
     /** @var ContainerInterface $container */
     protected $container;
